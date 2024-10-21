@@ -11,7 +11,7 @@ bool isPerfectSquare(int n) {
     if (i* i== n) return true;
     return false;
 }
-bool isFibonanci(int n) {
+bool isFibonacci(int n) {
     return isPerfectSquare(5 * n * n +4) || isPerfectSquare(5 * n * n - 4);
 }
 // Kiểm tra từ a đến b có những số Fibonacci nào.
